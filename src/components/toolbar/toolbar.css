@@ -1,0 +1,14 @@
+.toolbarRoot{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.toolbarRoot #searchField{
+    flex-shrink: 1;
+    flex-grow: 1;
+    min-width: 0;
+    /* border-radius: 4px;
+    border: 1px solid #0000004d; */
+}
+
+

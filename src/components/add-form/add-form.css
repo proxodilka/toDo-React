@@ -1,0 +1,11 @@
+.addFormRoot{
+    display: flex;
+}
+
+/* .addFormRoot input{
+    flex-basis: 100%;
+    flex-shrink: 1;
+    border-radius: 4px;
+    border: 1px solid #0000004d;
+    padding: 0 5px;
+} */

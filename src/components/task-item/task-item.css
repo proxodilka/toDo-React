@@ -1,0 +1,55 @@
+.taskUnit + .taskUnit{
+    border-top: inherit;
+}
+
+.taskUnit{
+    font-size: 170%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+.inputField{
+    outline: none;
+}
+
+.important{
+    color: #007bff;
+    font-weight: bold;
+}
+
+.taskUnit input[type=checkbox]+*{
+    margin-left: 5px;
+}
+
+.taskUnit input[type=checkbox]{
+    height: 0.8em;
+    width: 0.8em;
+}
+
+.taskText{
+    flex-basis:100%;
+}
+
+.nonActiveTaskUnit{
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.actSelector{
+    min-width: 40px;
+    max-width: 40px;
+}
+
+.actSelector+.actSelector{
+    margin-left: 5px;
+}
+
+.taskUnit label{
+    margin-bottom: 0;
+}
